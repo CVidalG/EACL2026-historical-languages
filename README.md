@@ -23,7 +23,30 @@ This repository contains the experimental framework and code for the paper:
 └── README.md
 ```
 
-#### Getting started
+### EACL 2026 - Corpus
+
+#### GRC (greek)
+* GRC_train = John Anagnostes, De Thessalonica Capta, Chap. 1 - 14 (15th c. AD - Historiography - 4.700 words)
+* GRC_test (in-domain) = John Anagnostes, De Thessalonica Capta, Chap. 1 - 14 (15th c. AD - Historiography - 300 words)
+* GRC_test (out-of-domain) = Grégoire de Nazianze, Homily 1, Chap. 1 - 4 (4th c. AD - Patristics, Homiletic - 300 words)
+
+#### HYE (armenian)
+* HYE_train = Evagrius, Letters (13th cent. AD - epistolography, ascetism - 4.700 words)
+* HYE_test (in-domain) = Evagrius, Letters (13th cent. AD - epistolography, ascetism - 300 words)
+* HYE_test (out-of-domain) = Step'anos of Siwnik' (Dub.), The Genesis Commentary, 2.1.1. - 2.1.20 (8th-9th cent. AD - exegesis, theology - 300 words)
+
+#### KAT (georgian)
+* KAT_train = Anonymus - Conversion of the Kartli, Chap. 1, Tit. - Chap. 3, Par. 4 (5th-9th cent. AD - hagiography, historiography - 4.700 words)
+* KAT_test (in-domain) = Anonymus - Conversion of the Kartli, Chap. 1, Tit. - Chap. 3, Par. 4 (5th-9th cent. AD - hagiography, historiography - 300 words)
+* KAT_test (out-of-domain) = History of the Rechabites by Zosimus (Text 2, Chap. 1-10) (8th-10th cent. AD - hagiography, historiography - 300 words)
+
+#### SYC (syriac)
+* SYC_train = Jacob of Serugh, Homilies (5th-6th c. AD - patristics, homiletic - 4.000 words)
+* SYC_test (in-domain) = Jacob of Serugh, Homilies (5th-6th c. AD - patristics, homiletic - 300 words)
+* SYC_test (out-of-domain) = History of the Rechabites by Zosimus (Long Version), Chap. 1, Tit. - Chap. 1, Par. 3 (4th cent. AD - hagiography, pseudepigraphs - 300 words)
+
+## How to use it
+### Getting started
 
 1. Installation 
 ```bash
@@ -61,9 +84,13 @@ Run the main script to start the annotation process:
 python main.py
 ```
 
-#### How to cite
+### How to cite
 
 TBD
+
+### LREC Tutorial
+
+This paper will also serve as a basis for a tutorial at LREC 2026: (https://floriancafiero.github.io/lrec2026-llm-as-annotator-tutorial/) [Under-Resourced Studies of Under-Resourced Languages].
 
 #### Acknowledgements
 This research was supported by the French National Research Agency (ANR), grant ANR-21-CE38-0006 (DALiH project), and conducted as part of the PSL Research University's Major Research Program CultureLab. We thank the GREgORI lab for data access.
