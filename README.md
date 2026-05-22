@@ -1,3 +1,7 @@
+[![Hugging Face App](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-App-yellow)](https://huggingface.co/spaces/ENC-PSL/lrec2026-llm-annotator)
+
+> **[May 22, 2026]**: An open and ready to use [webapp](https://huggingface.co/spaces/ENC-PSL/lrec2026-llm-annotator), based on this repo and the LREC Tutorial, is now available on Hugging Face (required an API key)!
+
 ### Lemmatization and POS-tagging of historical languages using LLM
 
 This repository contains the experimental framework and code for the paper:
