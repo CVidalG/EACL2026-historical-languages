@@ -90,7 +90,32 @@ python main.py
 
 ### How to cite
 
-TBD
+```latex
+@inproceedings{vidal-gorene-etal-2026-resourced,
+    title = "Under-resourced studies of under-resourced languages: lemmatization and {POS}-tagging with {LLM} annotators for historical {A}rmenian, {G}eorgian, {G}reek and {S}yriac",
+    author = "Vidal-Gor{\`e}ne, Chahan  and
+      Kindt, Bastien  and
+      Cafiero, Florian",
+    editor = "Hettiarachchi, Hansi  and
+      Ranasinghe, Tharindu  and
+      Plum, Alistair  and
+      Rayson, Paul  and
+      Mitkov, Ruslan  and
+      Gaber, Mohamed  and
+      Premasiri, Damith  and
+      Tan, Fiona Anting  and
+      Uyangodage, Lasitha",
+    booktitle = "Proceedings of the Second Workshop on Language Models for Low-Resource Languages ({L}o{R}es{LM} 2026)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.loreslm-1.28/",
+    doi = "10.18653/v1/2026.loreslm-1.28",
+    pages = "324--334",
+    ISBN = "979-8-89176-377-7",
+}
+```
 
 ### LREC Tutorial
 
